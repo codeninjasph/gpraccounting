@@ -450,6 +450,7 @@ img {
   color: #ff3333;
   background: linear-gradient(135deg, #ff4d4d 0%, #ff1a1a 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
