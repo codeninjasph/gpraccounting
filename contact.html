@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | GPR Accounting & Consultancy Services</title>
+  <meta name="description" content="Get in touch with GPR Accounting & Consultancy Services. Schedule a CPA consultation, inquire about BIR tax services, or visit our office in Makati, Philippines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>📍 Philippines</span>
+        <span>📞 (02) 8123-4567 / +63 917 890 1234</span>
+        <span>✉️ info@gpraccounting.ph</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="https://invite.viber.com" target="_blank" class="viber-badge">
+          <span>💬</span> Join GPR Viber Community
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="nav-link active">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-primary open-consultation-modal">Book a Consultation</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-header">
+        <img src="horizontal-logo.png" alt="GPR Logo" style="height: 40px;" />
+        <button class="drawer-close" id="drawerClose">✕</button>
+      </div>
+      <div class="drawer-menu">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="about.html" class="drawer-link">About Us</a>
+        <a href="services.html" class="drawer-link">Services</a>
+        <a href="resources.html" class="drawer-link">Resources</a>
+        <a href="contact.html" class="drawer-link active">Contact Us</a>
+      </div>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="#consultation" class="btn btn-primary open-consultation-modal" style="width: 100%;">Book a Consultation</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="badge badge-gold" style="margin-bottom: 1rem;">Get In Touch</div>
+      <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Contact Our Advisory Team</h1>
+      <p style="font-size: 1.15rem; max-width: 700px; margin: 0 auto; color: var(--slate-300);">
+        We are here to assist you with accounting, BIR compliance, SEC registration, and strategic financial management.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Grid Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info Side -->
+        <div class="contact-info-card">
+          <span class="badge badge-gold" style="margin-bottom: 1rem;">Philippine Office</span>
+          <h3>GPR Accounting & Consultancy Services</h3>
+          <p style="color: var(--slate-300); font-size: 0.95rem; line-height: 1.6;">
+            Visit our office or reach out directly to speak with an accredited Certified Public Accountant.
+          </p>
+
+          <div class="contact-detail-list">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">📍</div>
+              <div class="contact-detail-text">
+                <h5>Office Location</h5>
+                <p>Suite 1205, Ayala Life-FGU Center, 6811 Ayala Avenue, Makati City, Metro Manila, Philippines 1226</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">📞</div>
+              <div class="contact-detail-text">
+                <h5>Telephone & Mobile</h5>
+                <p>(02) 8123-4567 | (02) 8890-5678<br/>+63 917 890 1234 (Mobile/Viber)</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">✉️</div>
+              <div class="contact-detail-text">
+                <h5>Email Inquiries</h5>
+                <p>info@gpraccounting.ph<br/>audit@gpraccounting.ph</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">⏰</div>
+              <div class="contact-detail-text">
+                <h5>Business Hours</h5>
+                <p>Monday – Friday: 8:00 AM – 6:00 PM (PHT)</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.08); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.15);">
+            <h4 style="font-size: 1.1rem; color: #ffffff; font-weight: 700; margin-bottom: 0.5rem;">📱 Join Client Viber Channel</h4>
+            <p style="font-size: 0.85rem; color: var(--slate-300); margin-bottom: 1rem;">Direct updates on BIR revenue regulations and quarterly reminders.</p>
+            <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+              <span>💬</span> Connect on Viber
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Side -->
+        <div class="contact-form-card">
+          <span class="section-subtitle">Send A Message</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--slate-900); margin-bottom: 1rem;">How Can We Help Your Business?</h2>
+          <p style="font-size: 0.95rem; color: var(--slate-600); margin-bottom: 2rem;">
+            Please complete the form below. A senior CPA will review your submission and respond within one business day.
+          </p>
+
+          <form class="contact-form-element">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Full Name *</label>
+                <input type="text" class="form-input" required placeholder="e.g. Maria Santos" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Business / Company Name</label>
+                <input type="text" class="form-input" placeholder="e.g. Santos Trading Corp." />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Email Address *</label>
+                <input type="email" class="form-input" required placeholder="maria@santos.ph" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Phone / Viber Number *</label>
+                <input type="tel" class="form-input" required placeholder="09171234567" />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Service Needed</label>
+                <select class="form-select">
+                  <option>BIR Tax Compliance & Filing</option>
+                  <option>Financial Statement Audit (AFS)</option>
+                  <option>SEC Corporate Registration / GIS</option>
+                  <option>Cloud Bookkeeping Retainer</option>
+                  <option>Payroll Retainer Services</option>
+                  <option>Other Advisory / Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Preferred Contact Time</label>
+                <select class="form-select">
+                  <option>Morning (8 AM - 12 PM)</option>
+                  <option>Afternoon (1 PM - 5 PM)</option>
+                  <option>Anytime</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.5rem;">
+              <label class="form-label">Detailed Inquiry / Message *</label>
+              <textarea class="form-textarea" rows="4" required placeholder="Please describe your tax, audit, or corporate advisory requirement..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Inquiry to GPR CPAs →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Map Section -->
+  <section class="section section-subtle" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 2rem;">
+        <span class="section-subtitle">Location</span>
+        <h2 class="section-title">Our Office Location</h2>
+        <p class="section-desc">Located in the heart of Makati Central Business District.</p>
+      </div>
+
+      <div style="width: 100%; height: 380px; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--slate-200); box-shadow: var(--shadow-md);">
+        <iframe 
+          title="GPR Office Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.716174577884!2d121.0189!3d14.5547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b621e25e1%3A0xb3ff76c2cfb4bf25!2sAyala%20Ave%2C%20Makati%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services" class="footer-logo" />
+          <p>
+            GPR Accounting & Consultancy Services is a premier Philippine accounting and business advisory firm providing comprehensive financial audit, BIR tax compliance, SEC corporate filing, and cloud bookkeeping solutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#assurance">Assurance & Audit</a>
+            <a href="services.html#tax">Tax Compliance & Incentives</a>
+            <a href="services.html#corporate">Corporate Advisory & SEC</a>
+            <a href="services.html#bookkeeping">Cloud Accounting & Payroll</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Accreditations</h4>
+          <p style="font-size: 0.85rem; color: var(--slate-400); margin-bottom: 1rem;">
+            BIR Accredited Tax Practitioners | SEC Group B Accredited Auditors | PRC BOA Reg. No. 8921
+          </p>
+          <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+            💬 Join GPR Viber Community
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 GPR Accounting & Consultancy Services. All Rights Reserved.</div>
+        <div>Philippine Tax & Financial Advisory Services</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book a Consultation Modal -->
+  <div class="modal" id="consultationModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge badge-red" style="margin-bottom: 0.5rem;">Book A Consultation</span>
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--slate-900);">Schedule Your CPA Consultation</h3>
+        <p style="font-size: 0.9rem; color: var(--slate-600);">Fill out the form below and our CPA team will get back to you within 24 hours.</p>
+      </div>
+
+      <form class="consultation-form">
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-input" required placeholder="e.g. Juan Dela Cruz" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="juan@company.ph" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone / Viber *</label>
+            <input type="tel" class="form-input" required placeholder="09171234567" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Service Required</label>
+          <select class="form-select">
+            <option>BIR Tax Compliance & Strategy</option>
+            <option>Assurance & Financial Audit</option>
+            <option>SEC Corporate Registration / GIS</option>
+            <option>Bookkeeping & Payroll Retainer</option>
+            <option>General Business Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.5rem;">
+          <label class="form-label">Brief Note / Question</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your business or specific tax inquiry..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

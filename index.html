@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPR Accounting & Consultancy Services | Professional CPAs in the Philippines</title>
+  <meta name="description" content="GPR Accounting & Consultancy Services offers timely financial advisory, BIR tax compliance, SEC registration, auditing, and corporate advisory services in the Philippines." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>📍 Philippines</span>
+        <span>📞 (02) 8123-4567 / +63 917 890 1234</span>
+        <span>✉️ info@gpraccounting.ph</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="https://invite.viber.com" target="_blank" class="viber-badge">
+          <span>💬</span> Join GPR Viber Community
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-primary open-consultation-modal">Book a Consultation</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-header">
+        <img src="horizontal-logo.png" alt="GPR Logo" style="height: 40px;" />
+        <button class="drawer-close" id="drawerClose">✕</button>
+      </div>
+      <div class="drawer-menu">
+        <a href="index.html" class="drawer-link active">Home</a>
+        <a href="about.html" class="drawer-link">About Us</a>
+        <a href="services.html" class="drawer-link">Services</a>
+        <a href="resources.html" class="drawer-link">Resources</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </div>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="#consultation" class="btn btn-primary open-consultation-modal" style="width: 100%;">Book a Consultation</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge badge-gold">
+          ✨ Trusted Philippine CPA & Advisory Firm
+        </div>
+        <h1 class="hero-title">
+          The Power of <span>Timeliness</span> & Strategic Growth
+        </h1>
+        <p class="hero-description">
+          Doing business in a fast-paced economy calls for decisions that are not just smart, but timely. At GPR Accounting & Consultancy Services, we provide expert financial advisory, tax compliance, and corporate solutions exactly when you need them.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#consultation" class="btn btn-primary btn-lg open-consultation-modal">
+            Schedule CPA Consultation →
+          </a>
+          <a href="services.html" class="btn btn-outline-white btn-lg">
+            Explore Our Services
+          </a>
+        </div>
+        <div class="hero-highlights">
+          <div class="hero-stat">
+            <span class="hero-stat-number">100%</span>
+            <span class="hero-stat-label">BIR Compliance</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">15+</span>
+            <span class="hero-stat-label">Years Expertise</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">500+</span>
+            <span class="hero-stat-label">Clients Advised</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">
+          <span>🛡️</span> Timely Business Advice
+        </div>
+        <p style="font-size: 0.9rem; color: var(--slate-300); margin-bottom: 1.25rem;">
+          Avoid BIR penalties and streamline your corporate governance with direct guidance from accredited CPAs.
+        </p>
+        <div class="hero-quick-list">
+          <div class="hero-quick-item">
+            <div class="hero-quick-icon">📊</div>
+            <div class="hero-quick-text">
+              <h4>Assurance & Audit</h4>
+              <p>Reliable financial reporting for SEC & BIR filing.</p>
+            </div>
+          </div>
+          <div class="hero-quick-item">
+            <div class="hero-quick-icon">⚖️</div>
+            <div class="hero-quick-text">
+              <h4>Tax Strategy & Incentives</h4>
+              <p>Maximize PEZA/BOI incentives & reduce tax exposure.</p>
+            </div>
+          </div>
+          <div class="hero-quick-item">
+            <div class="hero-quick-icon">🏢</div>
+            <div class="hero-quick-text">
+              <h4>Corporate Registration</h4>
+              <p>Seamless SEC, Mayor's Permit & LGU compliance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accreditations & Recognitions Section -->
+  <section class="accreditations-section">
+    <div class="container">
+      <div class="accreditations-header">
+        <p>Recognized by Leading Philippine Regulatory Bodies & Business Institutions</p>
+      </div>
+      <div class="accreditations-grid">
+        <div class="accreditation-pill">
+          <div class="badge-icon">BIR</div>
+          <span>Bureau of Internal Revenue Accredited</span>
+        </div>
+        <div class="accreditation-pill">
+          <div class="badge-icon">SEC</div>
+          <span>Securities & Exchange Commission</span>
+        </div>
+        <div class="accreditation-pill">
+          <div class="badge-icon">PRC</div>
+          <span>Board of Accountancy (BOA)</span>
+        </div>
+        <div class="accreditation-pill">
+          <div class="badge-icon">CDA</div>
+          <span>Cooperative Development Authority</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">What We Do</span>
+        <h2 class="section-title">Practical Financial, Tax & Advisory Support</h2>
+        <p class="section-desc">Designed for businesses in the Philippines that demand clear answers, rigorous compliance, and timely action.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">📊</div>
+            <h3>Assurance & Business Advisory</h3>
+            <p>Make confident financial decisions with accurate financial statements, internal control audits, and risk assessment.</p>
+          </div>
+          <a href="services.html#assurance" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">📋</div>
+            <h3>Tax & BIR Compliance</h3>
+            <p>Full BIR tax preparation, filing, tax incentives strategy (PEZA/BOI), and expert BIR audit defense representation.</p>
+          </div>
+          <a href="services.html#tax" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">🏛️</div>
+            <h3>Corporate Advisory & Filing</h3>
+            <p>Entity registration (Corporations, Partnerships, Foreign Branches), GIS filings, and corporate secretarial management.</p>
+          </div>
+          <a href="services.html#corporate" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">💻</div>
+            <h3>Cloud Bookkeeping & Payroll</h3>
+            <p>Modern cloud accounting setup (Xero/QuickBooks) paired with SSS, PhilHealth, Pag-IBIG, and withholding tax payroll processing.</p>
+          </div>
+          <a href="services.html#bookkeeping" class="service-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value-Added Advisory & Viber Visibility Feature -->
+  <section class="section section-subtle">
+    <div class="container">
+      <div class="value-feature-box">
+        <div>
+          <span class="section-subtitle">Visibility & Direct Communication</span>
+          <h2 class="section-title" style="text-align: left; font-size: 2rem;">Our Business is Your Business</h2>
+          <p class="section-desc" style="text-align: left;">
+            Transparency and visibility are fundamental to effective financial advisory. With GPR, you gain a dedicated partner committed to understanding your operational goals. We are consistently available and proactive in keeping your financial health transparent.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Direct CPA Consultation Access</h4>
+                <p>No endless phone loops. Speak directly with senior CPAs assigned to your account.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Exclusive Viber Client Updates</h4>
+                <p>Receive immediate alerts on BIR revenue regulations, tax deadlines, and advisory reminders.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Proactive Tax Calendar Reminders</h4>
+                <p>Never miss a BIR monthly, quarterly, or annual return deadline.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            <a href="https://invite.viber.com" target="_blank" class="btn btn-primary">
+              💬 Join Our Viber Community
+            </a>
+            <a href="contact.html" class="btn btn-outline-navy">
+              Contact Our CPAs
+            </a>
+          </div>
+        </div>
+
+        <div class="viber-card-promo">
+          <div style="font-size: 3rem; margin-bottom: 0.5rem;">📱</div>
+          <h3>Instant Tax & Regulatory Updates</h3>
+          <p>Join over 1,000+ Philippine business executives and entrepreneurs in our official broadcast community.</p>
+          <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: var(--radius-md); font-size: 0.85rem; text-align: left; margin-bottom: 1.5rem;">
+            <strong>Latest Advisory Highlight:</strong><br/>
+            📌 Ease of Paying Taxes (EOPT) Act updates & new BIR tax invoice rules for 2026.
+          </div>
+          <a href="https://invite.viber.com" target="_blank" class="btn btn-outline-white btn-sm" style="width: 100%;">
+            Connect on Viber Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Fee Estimator Widget Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Instant Estimate</span>
+        <h2 class="section-title">Calculate Your Service Engagement Estimate</h2>
+        <p class="section-desc">Select your business structure and service requirement to view a ballpark monthly retainer fee.</p>
+      </div>
+
+      <div class="calculator-box">
+        <div class="calc-grid">
+          <div class="calc-form">
+            <div class="form-group">
+              <label class="form-label" for="calcEntity">Business Structure</label>
+              <select id="calcEntity" class="form-select">
+                <option value="sole">Sole Proprietorship / Freelancer</option>
+                <option value="corporation" selected>Domestic Corporation / OPC</option>
+                <option value="partnership">Partnership</option>
+                <option value="branch">Foreign Branch / Regional HQ</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="calcRevenue">Estimated Monthly Revenue (₱ PHP)</label>
+              <input type="number" id="calcRevenue" class="form-input" value="1500000" placeholder="e.g. 1500000" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="calcService">Primary Service Needed</label>
+              <select id="calcService" class="form-select">
+                <option value="bookkeeping" selected>Monthly Bookkeeping & BIR Compliance</option>
+                <option value="audit">Annual Financial Statement Audit</option>
+                <option value="full">Full Outsourced Accounting & Payroll</option>
+                <option value="tax_audit">BIR Audit Defense & Advisory</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="calc-result-box">
+            <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--slate-300);">Estimated Retainer Fee</span>
+            <div class="calc-price" id="calcOutput">₱13,000 / mo</div>
+            <p class="calc-note">*Final proposal tailored after complimentary CPA consultation.</p>
+            <a href="#consultation" class="btn btn-primary btn-sm open-consultation-modal">Lock In This Estimate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="section section-navy text-center">
+    <div class="container">
+      <div class="badge badge-gold" style="margin-bottom: 1rem;">Direct CPA Support</div>
+      <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Take Control of Your Financial & Tax Compliance?</h2>
+      <p class="section-desc" style="max-width: 650px; margin: 0 auto 2rem auto;">Book a 30-minute strategic session with our senior CPAs. We will review your current BIR filings, financial statements, and business structure.</p>
+      <a href="#consultation" class="btn btn-primary btn-lg open-consultation-modal">Schedule Free Initial Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services" class="footer-logo" />
+          <p>
+            GPR Accounting & Consultancy Services is a premier Philippine accounting and business advisory firm providing comprehensive financial audit, BIR tax compliance, SEC corporate filing, and cloud bookkeeping solutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#assurance">Assurance & Audit</a>
+            <a href="services.html#tax">Tax Compliance & Incentives</a>
+            <a href="services.html#corporate">Corporate Advisory & SEC</a>
+            <a href="services.html#bookkeeping">Cloud Accounting & Payroll</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Accreditations</h4>
+          <p style="font-size: 0.85rem; color: var(--slate-400); margin-bottom: 1rem;">
+            BIR Accredited Tax Practitioners | SEC Group B Accredited Auditors | PRC BOA Reg. No. 8921
+          </p>
+          <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+            💬 Join GPR Viber Community
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 GPR Accounting & Consultancy Services. All Rights Reserved.</div>
+        <div>Philippine Tax & Financial Advisory Services</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book a Consultation Modal -->
+  <div class="modal" id="consultationModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge badge-red" style="margin-bottom: 0.5rem;">Book A Consultation</span>
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--slate-900);">Schedule Your CPA Consultation</h3>
+        <p style="font-size: 0.9rem; color: var(--slate-600);">Fill out the form below and our CPA team will get back to you within 24 hours.</p>
+      </div>
+
+      <form class="consultation-form">
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-input" required placeholder="e.g. Juan Dela Cruz" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="juan@company.ph" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone / Viber *</label>
+            <input type="tel" class="form-input" required placeholder="09171234567" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Service Required</label>
+          <select class="form-select">
+            <option>BIR Tax Compliance & Strategy</option>
+            <option>Assurance & Financial Audit</option>
+            <option>SEC Corporate Registration / GIS</option>
+            <option>Bookkeeping & Payroll Retainer</option>
+            <option>General Business Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.5rem;">
+          <label class="form-label">Brief Note / Question</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your business or specific tax inquiry..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

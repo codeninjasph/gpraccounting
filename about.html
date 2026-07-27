@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | GPR Accounting & Consultancy Services</title>
+  <meta name="description" content="Learn about GPR Accounting & Consultancy Services, our mission, leadership team, and expert CPAs dedicated to empowering Philippine businesses with timely advice." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>📍 Philippines</span>
+        <span>📞 (02) 8123-4567 / +63 917 890 1234</span>
+        <span>✉️ info@gpraccounting.ph</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="https://invite.viber.com" target="_blank" class="viber-badge">
+          <span>💬</span> Join GPR Viber Community
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-primary open-consultation-modal">Book a Consultation</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-header">
+        <img src="horizontal-logo.png" alt="GPR Logo" style="height: 40px;" />
+        <button class="drawer-close" id="drawerClose">✕</button>
+      </div>
+      <div class="drawer-menu">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="about.html" class="drawer-link active">About Us</a>
+        <a href="services.html" class="drawer-link">Services</a>
+        <a href="resources.html" class="drawer-link">Resources</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </div>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="#consultation" class="btn btn-primary open-consultation-modal" style="width: 100%;">Book a Consultation</a>
+    </div>
+  </div>
+
+  <!-- About Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="badge badge-gold" style="margin-bottom: 1rem;">Who We Are</div>
+      <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">About GPR Accounting & Consultancy Services</h1>
+      <p style="font-size: 1.15rem; max-width: 700px; margin: 0 auto; color: var(--slate-300);">
+        A premier Philippine accounting and business advisory firm committed to giving business leaders the power of timeliness, financial clarity, and regulatory peace of mind.
+      </p>
+    </div>
+  </section>
+
+  <!-- Firm Overview -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="value-feature-box" style="padding: 0; border: none; box-shadow: none; background: transparent;">
+        <div>
+          <span class="section-subtitle">Our Founding Purpose</span>
+          <h2 class="section-title" style="text-align: left;">Empowering Philippine Businesses through Timely Financial Advice</h2>
+          <p class="section-desc" style="text-align: left; margin-bottom: 1.2rem;">
+            Founded by veteran Certified Public Accountants in the Philippines, GPR Accounting & Consultancy Services was created to eliminate the traditional gap between accountants and business owners.
+          </p>
+          <p style="color: var(--slate-600); line-height: 1.7; margin-bottom: 1.5rem;">
+            We recognize that running a successful business in the Philippines requires navigating complex Tax Code provisions, BIR regulations, SEC mandates, and local government compliance. Our philosophy centers on **"The Power of Timeliness"**—delivering actionable financial insights before critical deadlines so our clients can make proactive growth decisions.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+            <div style="background: var(--navy-subtle); padding: 1.5rem; border-radius: var(--radius-md); border-left: 4px solid var(--navy-primary);">
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--navy-primary); margin-bottom: 0.5rem;">🎯 Our Mission</h4>
+              <p style="font-size: 0.9rem; color: var(--slate-700);">To provide accurate, transparent, and timely accounting, tax, and advisory services that enable Philippine MSMEs and corporations to thrive sustainably.</p>
+            </div>
+            <div style="background: var(--red-subtle); padding: 1.5rem; border-radius: var(--radius-md); border-left: 4px solid var(--red-primary);">
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--red-primary); margin-bottom: 0.5rem;">👁️ Our Vision</h4>
+              <p style="font-size: 0.9rem; color: var(--slate-700);">To be the premier, most trusted accounting and business consultancy partner recognized across the Philippines for excellence and integrity.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: var(--navy-deep); border-radius: var(--radius-lg); padding: 2.5rem; color: #ffffff; position: relative;">
+          <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--gold-accent); margin-bottom: 1.5rem;">Deep Regulatory Expertise</h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem;">
+              <h5 style="color: #ffffff; font-weight: 700;">Ease of Paying Taxes (EOPT) Act</h5>
+              <p style="font-size: 0.85rem; color: var(--slate-300);">Full implementation of standardized invoicing, digital BIR filing, and taxpayer classification systems.</p>
+            </div>
+
+            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem;">
+              <h5 style="color: #ffffff; font-weight: 700;">CREATE & TRAIN Act Compliance</h5>
+              <p style="font-size: 0.85rem; color: var(--slate-300);">Strategic tax planning maximizing lowered corporate income tax rates & PEZA/BOI fiscal incentives.</p>
+            </div>
+
+            <div>
+              <h5 style="color: #ffffff; font-weight: 700;">SEC & Corporate Governance</h5>
+              <p style="font-size: 0.85rem; color: var(--slate-300);">Beneficial Ownership Transparency, Annual Corporate Returns, and internal compliance auditing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values Section -->
+  <section class="section section-subtle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Guiding Principles</span>
+        <h2 class="section-title">The Core Pillars of GPR Services</h2>
+        <p class="section-desc">Every engagement is executed in strict accordance with the professional Code of Ethics for CPAs.</p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">⏱️</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--slate-900);">Timeliness</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600);">We deliver financial reports and tax filings well ahead of BIR & SEC statutory deadlines.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">🔍</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--slate-900);">Visibility</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600);">No secret algorithms or obscure jargon. You have complete visibility over your financial status.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">🛡️</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--slate-900);">Integrity & Ethics</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600);">Uncompromising adherence to Philippine Financial Reporting Standards (PFRS) and BIR guidelines.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">💡</div>
+          <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--slate-900);">Proactive Strategy</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600);">We actively spot tax savings, operational bottlenecks, and financial risks before they arise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership / Team Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Leadership</span>
+        <h2 class="section-title">Meet Our Managing Partners & CPAs</h2>
+        <p class="section-desc">Backed by decades of collective experience in public accounting, BIR audits, and corporate advisory.</p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar-box">👨‍💼</div>
+          <div class="team-info">
+            <h4>Gerardo P. Reyes, CPA</h4>
+            <span class="title">Managing Partner & Senior Audit Lead</span>
+            <p>20+ years of public accounting expertise specializing in BIR tax investigations, financial statement audits, and SEC compliance.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar-box">👩‍💼</div>
+          <div class="team-info">
+            <h4>Patricia M. Ramos, CPA, REB</h4>
+            <span class="title">Partner – Tax Advisory & Corporate Services</span>
+            <p>Specialist in PEZA tax incentives, corporate structuring, CREATE Act planning, and estate tax settlement.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar-box">👨‍💻</div>
+          <div class="team-info">
+            <h4>Gabriel V. Cruz, CPA, CIA</h4>
+            <span class="title">Director – Cloud Accounting & Internal Controls</span>
+            <p>Expert in cloud migration (Xero / QuickBooks), internal audit controls, and modern payroll automation for PH enterprises.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services" class="footer-logo" />
+          <p>
+            GPR Accounting & Consultancy Services is a premier Philippine accounting and business advisory firm providing comprehensive financial audit, BIR tax compliance, SEC corporate filing, and cloud bookkeeping solutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#assurance">Assurance & Audit</a>
+            <a href="services.html#tax">Tax Compliance & Incentives</a>
+            <a href="services.html#corporate">Corporate Advisory & SEC</a>
+            <a href="services.html#bookkeeping">Cloud Accounting & Payroll</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Accreditations</h4>
+          <p style="font-size: 0.85rem; color: var(--slate-400); margin-bottom: 1rem;">
+            BIR Accredited Tax Practitioners | SEC Group B Accredited Auditors | PRC BOA Reg. No. 8921
+          </p>
+          <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+            💬 Join GPR Viber Community
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 GPR Accounting & Consultancy Services. All Rights Reserved.</div>
+        <div>Philippine Tax & Financial Advisory Services</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book a Consultation Modal -->
+  <div class="modal" id="consultationModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge badge-red" style="margin-bottom: 0.5rem;">Book A Consultation</span>
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--slate-900);">Schedule Your CPA Consultation</h3>
+        <p style="font-size: 0.9rem; color: var(--slate-600);">Fill out the form below and our CPA team will get back to you within 24 hours.</p>
+      </div>
+
+      <form class="consultation-form">
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-input" required placeholder="e.g. Juan Dela Cruz" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="juan@company.ph" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone / Viber *</label>
+            <input type="tel" class="form-input" required placeholder="09171234567" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Service Required</label>
+          <select class="form-select">
+            <option>BIR Tax Compliance & Strategy</option>
+            <option>Assurance & Financial Audit</option>
+            <option>SEC Corporate Registration / GIS</option>
+            <option>Bookkeeping & Payroll Retainer</option>
+            <option>General Business Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.5rem;">
+          <label class="form-label">Brief Note / Question</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your business or specific tax inquiry..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

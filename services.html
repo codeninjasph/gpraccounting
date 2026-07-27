@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | GPR Accounting & Consultancy Services</title>
+  <meta name="description" content="Explore comprehensive accounting services by GPR in the Philippines: Assurance & Audit, BIR Tax Compliance, SEC Business Registration, PEZA Incentives, and Cloud Bookkeeping." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>📍 Philippines</span>
+        <span>📞 (02) 8123-4567 / +63 917 890 1234</span>
+        <span>✉️ info@gpraccounting.ph</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="https://invite.viber.com" target="_blank" class="viber-badge">
+          <span>💬</span> Join GPR Viber Community
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-primary open-consultation-modal">Book a Consultation</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-header">
+        <img src="horizontal-logo.png" alt="GPR Logo" style="height: 40px;" />
+        <button class="drawer-close" id="drawerClose">✕</button>
+      </div>
+      <div class="drawer-menu">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="about.html" class="drawer-link">About Us</a>
+        <a href="services.html" class="drawer-link active">Services</a>
+        <a href="resources.html" class="drawer-link">Resources</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </div>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="#consultation" class="btn btn-primary open-consultation-modal" style="width: 100%;">Book a Consultation</a>
+    </div>
+  </div>
+
+  <!-- Page Banner -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="badge badge-gold" style="margin-bottom: 1rem;">Solutions & Capabilities</div>
+      <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Professional CPA Services</h1>
+      <p style="font-size: 1.15rem; max-width: 700px; margin: 0 auto; color: var(--slate-300);">
+        Comprehensive financial, tax, corporate, and cloud accounting solutions built around your business goals in the Philippines.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Service 1: Assurance & Audit -->
+  <section class="section section-light" id="assurance">
+    <div class="container">
+      <div class="value-feature-box">
+        <div>
+          <div class="badge badge-navy" style="margin-bottom: 0.75rem;">Department 01</div>
+          <h2 class="section-title" style="text-align: left;">Assurance & Business Advisory</h2>
+          <p class="section-desc" style="text-align: left; margin-bottom: 1.5rem;">
+            Make confident business decisions backed by reliable, independent financial audits. We ensure your financial statements comply strictly with Philippine Financial Reporting Standards (PFRS).
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Audited Financial Statements (AFS)</h4>
+                <p>Independent audits for annual submission to the BIR and SEC, signed by BOA/SEC accredited CPAs.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Internal Controls & Operational Audit</h4>
+                <p>Thorough evaluation of internal systems to prevent fraud, eliminate waste, and optimize financial workflows.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Special Audits & Due Diligence</h4>
+                <p>Financial due diligence for mergers, acquisitions, investor presentations, and joint ventures.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#consultation" class="btn btn-primary open-consultation-modal">Inquire for Assurance Services →</a>
+        </div>
+
+        <div style="background: var(--slate-50); border-radius: var(--radius-lg); padding: 2rem; border: 1px solid var(--slate-200);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--navy-primary); margin-bottom: 1rem;">Key Deliverables</h3>
+          <ul style="display: flex; flex-direction: column; gap: 0.85rem; font-size: 0.95rem; color: var(--slate-700);">
+            <li>✔️ Independent Auditor's Report</li>
+            <li>✔️ Statement of Management Responsibility</li>
+            <li>✔️ Audited Balance Sheet & Income Statement</li>
+            <li>✔️ Statement of Cash Flows & Notes to Financial Statements</li>
+            <li>✔️ Management Letter of Internal Control Findings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Service 2: Tax & Tax Incentives -->
+  <section class="section section-subtle" id="tax">
+    <div class="container">
+      <div class="value-feature-box">
+        <div style="background: var(--navy-deep); color: #ffffff; border-radius: var(--radius-lg); padding: 2rem;">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--gold-accent); margin-bottom: 1rem;">Supported BIR Compliance Forms</h3>
+          <ul style="display: flex; flex-direction: column; gap: 0.85rem; font-size: 0.95rem; color: var(--slate-200);">
+            <li>📌 BIR Form 1702-RT / EX / MX (Annual Income Tax)</li>
+            <li>📌 BIR Form 2550Q (Quarterly Value Added Tax)</li>
+            <li>📌 BIR Form 1601-EQ / 1601-C (Withholding Taxes)</li>
+            <li>📌 BIR Form 0619-E / 0619-F (Monthly Remittances)</li>
+            <li>📌 BIR Form 1701 / 1701A (Individual & Professionals)</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="badge badge-red" style="margin-bottom: 0.75rem;">Department 02</div>
+          <h2 class="section-title" style="text-align: left;">Tax Advisory, BIR Filing & Incentives</h2>
+          <p class="section-desc" style="text-align: left; margin-bottom: 1.5rem;">
+            Navigate Philippine tax laws smoothly, minimize tax risks, and take full advantage of available tax incentives under the CREATE Act and PEZA framework.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Routine BIR Returns & EOPT Compliance</h4>
+                <p>Accurate computation and timely eFPS/eBIRForms filing for all monthly, quarterly, and annual BIR returns.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>BIR Audit Defense & Letter of Authority (LOA)</h4>
+                <p>Expert representation when facing BIR tax assessment notices (PAN, FAN, FDDA), protecting your rights.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>PEZA & BOI Fiscal Tax Incentives</h4>
+                <p>Guidance on Income Tax Holidays (ITH), 5% Special Corporate Income Tax (SCIT), and Duty-free importations.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#consultation" class="btn btn-primary open-consultation-modal">Inquire for Tax Advisory →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Service 3: Corporate Advisory & Registration -->
+  <section class="section section-light" id="corporate">
+    <div class="container">
+      <div class="value-feature-box">
+        <div>
+          <div class="badge badge-navy" style="margin-bottom: 0.75rem;">Department 03</div>
+          <h2 class="section-title" style="text-align: left;">Corporate Advisory & SEC Registration</h2>
+          <p class="section-desc" style="text-align: left; margin-bottom: 1.5rem;">
+            From company formation to corporate secretarial services, we handle all statutory requirements with the SEC, LGU, and government agencies.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Business Incorporation & Entity Setup</h4>
+                <p>Full-service registration for Domestic Corporations, One Person Corporations (OPC), Partnerships, and Foreign Branch Offices.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>LGU Mayor's Permit & BIR Registration</h4>
+                <p>Securing Local Government Business Permits, Barangay Clearance, and BIR Certificate of Registration (Form 2303).</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Corporate Secretarial & Annual GIS</h4>
+                <p>Preparation of Board Resolutions, Minutes of Meetings, and timely filing of the Annual General Information Sheet (GIS).</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#consultation" class="btn btn-primary open-consultation-modal">Inquire for Corporate Setup →</a>
+        </div>
+
+        <div style="background: var(--slate-50); border-radius: var(--radius-lg); padding: 2rem; border: 1px solid var(--slate-200);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--navy-primary); margin-bottom: 1rem;">Complete Registration Package</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600); margin-bottom: 1rem;">We manage the end-to-end setup process:</p>
+          <ul style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem; color: var(--slate-700);">
+            <li>1. SEC Certificate of Incorporation & Bylaws</li>
+            <li>2. Barangay Business Clearance</li>
+            <li>3. City/Municipal Mayor's Permit & Fire Safety</li>
+            <li>4. BIR Form 2303 & Authority to Print Invoices</li>
+            <li>5. SSS, PhilHealth, and Pag-IBIG Employer IDs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Service 4: Bookkeeping & Cloud Payroll -->
+  <section class="section section-subtle" id="bookkeeping">
+    <div class="container">
+      <div class="value-feature-box">
+        <div style="background: var(--navy-subtle); border-radius: var(--radius-lg); padding: 2rem; border: 1px solid rgba(0,0,128,0.15);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--navy-primary); margin-bottom: 1rem;">Modern Cloud Software</h3>
+          <p style="font-size: 0.9rem; color: var(--slate-600); margin-bottom: 1rem;">We are certified advisors in leading cloud accounting platforms:</p>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; font-weight: 700; color: var(--slate-800);">
+            <div style="background: #ffffff; padding: 0.75rem 1rem; border-radius: var(--radius-md); border: 1px solid var(--slate-200);">🟦 Xero Certified Advisors</div>
+            <div style="background: #ffffff; padding: 0.75rem 1rem; border-radius: var(--radius-md); border: 1px solid var(--slate-200);">🟢 QuickBooks Online Advanced Certified</div>
+            <div style="background: #ffffff; padding: 0.75rem 1rem; border-radius: var(--radius-md); border: 1px solid var(--slate-200);">⚡ Automated Sprout / Payroll Pie Integration</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="badge badge-gold" style="margin-bottom: 0.75rem;">Department 04</div>
+          <h2 class="section-title" style="text-align: left;">Cloud Bookkeeping & Payroll Retainers</h2>
+          <p class="section-desc" style="text-align: left; margin-bottom: 1.5rem;">
+            Outsource your day-to-day accounting to dedicated professionals. Enjoy real-time financial dashboards, digitized receipt management, and error-free payroll.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Monthly Bookkeeping & Financial Reporting</h4>
+                <p>Recording of daily transactions, bank reconciliations, and monthly Profit & Loss statements delivered by the 10th of every month.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>End-to-End Payroll & Mandatory Contributions</h4>
+                <p>Computation of net pay, 13th-month pay, withholding tax on compensation, and online remittance of SSS, PhilHealth, and Pag-IBIG.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-check">✓</div>
+              <div class="feature-item-text">
+                <h4>Inventory & E-commerce Accounting</h4>
+                <p>Specialized solutions for Shopify, Lazada, Shopee, tech startups, and digital service agencies in the Philippines.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#consultation" class="btn btn-primary open-consultation-modal">Inquire for Bookkeeping →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services" class="footer-logo" />
+          <p>
+            GPR Accounting & Consultancy Services is a premier Philippine accounting and business advisory firm providing comprehensive financial audit, BIR tax compliance, SEC corporate filing, and cloud bookkeeping solutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#assurance">Assurance & Audit</a>
+            <a href="services.html#tax">Tax Compliance & Incentives</a>
+            <a href="services.html#corporate">Corporate Advisory & SEC</a>
+            <a href="services.html#bookkeeping">Cloud Accounting & Payroll</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Accreditations</h4>
+          <p style="font-size: 0.85rem; color: var(--slate-400); margin-bottom: 1rem;">
+            BIR Accredited Tax Practitioners | SEC Group B Accredited Auditors | PRC BOA Reg. No. 8921
+          </p>
+          <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+            💬 Join GPR Viber Community
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 GPR Accounting & Consultancy Services. All Rights Reserved.</div>
+        <div>Philippine Tax & Financial Advisory Services</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book a Consultation Modal -->
+  <div class="modal" id="consultationModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge badge-red" style="margin-bottom: 0.5rem;">Book A Consultation</span>
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--slate-900);">Schedule Your CPA Consultation</h3>
+        <p style="font-size: 0.9rem; color: var(--slate-600);">Fill out the form below and our CPA team will get back to you within 24 hours.</p>
+      </div>
+
+      <form class="consultation-form">
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-input" required placeholder="e.g. Juan Dela Cruz" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="juan@company.ph" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone / Viber *</label>
+            <input type="tel" class="form-input" required placeholder="09171234567" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Service Required</label>
+          <select class="form-select">
+            <option>BIR Tax Compliance & Strategy</option>
+            <option>Assurance & Financial Audit</option>
+            <option>SEC Corporate Registration / GIS</option>
+            <option>Bookkeeping & Payroll Retainer</option>
+            <option>General Business Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.5rem;">
+          <label class="form-label">Brief Note / Question</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your business or specific tax inquiry..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

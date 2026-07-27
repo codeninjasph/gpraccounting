@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources & Tax Insights | GPR Accounting & Consultancy Services</title>
+  <meta name="description" content="Access downloadable BIR compliance guides, Philippine tax calendars, SEC checklists, and expert tax articles from GPR Accounting & Consultancy Services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span>📍 Philippines</span>
+        <span>📞 (02) 8123-4567 / +63 917 890 1234</span>
+        <span>✉️ info@gpraccounting.ph</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="https://invite.viber.com" target="_blank" class="viber-badge">
+          <span>💬</span> Join GPR Viber Community
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link active">Resources</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-primary open-consultation-modal">Book a Consultation</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-header">
+        <img src="horizontal-logo.png" alt="GPR Logo" style="height: 40px;" />
+        <button class="drawer-close" id="drawerClose">✕</button>
+      </div>
+      <div class="drawer-menu">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="about.html" class="drawer-link">About Us</a>
+        <a href="services.html" class="drawer-link">Services</a>
+        <a href="resources.html" class="drawer-link active">Resources</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </div>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="#consultation" class="btn btn-primary open-consultation-modal" style="width: 100%;">Book a Consultation</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="badge badge-gold" style="margin-bottom: 1rem;">Knowledge & Downloadables</div>
+      <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Resources & Tax Knowledge Base</h1>
+      <p style="font-size: 1.15rem; max-width: 700px; margin: 0 auto; color: var(--slate-300);">
+        Free tax calendars, BIR compliance checklists, and expert commentaries on Philippine business regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Downloadable Resources Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Downloads</span>
+        <h2 class="section-title">Free Compliance & Tax Reference Guides</h2>
+        <p class="section-desc">Search or browse our curated library of Philippine business and tax documents.</p>
+      </div>
+
+      <div class="resource-search-bar">
+        <input type="text" id="resourceSearch" class="form-input" placeholder="🔍 Search resources (e.g. BIR, EOPT, SEC, VAT, Calendar)..." />
+      </div>
+
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Downloadable PDF</div>
+            <h4>2026 BIR Statutory Tax Deadlines Calendar</h4>
+            <p>A month-by-month breakdown of BIR eFPS & eBIRForms filing deadlines for VAT, Withholding Taxes, and Income Tax.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: 2026 BIR Statutory Tax Deadlines Calendar.pdf')">📥 Download Guide</button>
+        </div>
+
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Checklist</div>
+            <h4>Ease of Paying Taxes (EOPT) Invoice Transition Guide</h4>
+            <p>Official steps to update your Official Receipts to BIR Compliant Tax Invoices under Revenue Regulations No. 7-2024.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: EOPT Invoicing Transition Guide.pdf')">📥 Download Guide</button>
+        </div>
+
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Corporate Guide</div>
+            <h4>SEC General Information Sheet (GIS) Checklist</h4>
+            <p>Complete document requirement list for SEC Annual GIS filing and Beneficial Ownership Declaration compliance.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: SEC GIS Checklist.pdf')">📥 Download Guide</button>
+        </div>
+
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Tax Summary</div>
+            <h4>CREATE Act Corporate Tax Rates & PEZA Incentives Matrix</h4>
+            <p>Comprehensive overview of corporate income tax tiers, 5% SCIT incentives, and duty exemption rules.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: CREATE Act Tax Incentives Summary.pdf')">📥 Download Guide</button>
+        </div>
+
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Registration Guide</div>
+            <h4>Philippine Business Entity Registration Comparison Table</h4>
+            <p>Comparing Sole Proprietorships, One Person Corporations (OPC), Corporations, and Foreign Branches.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: Business Entity Comparison Guide.pdf')">📥 Download Guide</button>
+        </div>
+
+        <div class="resource-card">
+          <div>
+            <div class="resource-type">📄 Checklist</div>
+            <h4>Annual BIR Year-End Tax Requirements Checklist</h4>
+            <p>A step-by-step checklist for Alphalists, 1604-C, 1604-E, 2316 distribution, and Annual Book of Accounts stamping.</p>
+          </div>
+          <button class="btn btn-outline-navy btn-sm" onclick="showToast('Downloading: BIR Year-End Checklist.pdf')">📥 Download Guide</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sense & Taxability / FAQ Section -->
+  <section class="section section-subtle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Sense & Taxability</span>
+        <h2 class="section-title">Frequently Asked Questions (FAQ)</h2>
+        <p class="section-desc">Common questions answered by our Certified Public Accountants.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>1. What are the key changes introduced by the Ease of Paying Taxes (EOPT) Act in 2026?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            The EOPT Act (RA 11976) introduced major reforms: it established a unified Sales Invoice for both goods and services (replacing Official Receipts for VAT input claim), categorized taxpayers into Micro, Small, Medium, and Large for tailored compliance, and allowed digital filing/payment across any BIR Revenue District Office.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>2. When is a domestic business required to submit Audited Financial Statements (AFS) to the BIR & SEC?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            Under BIR regulations, corporations and individuals with gross quarterly sales or receipts exceeding ₱3,000,000 are required to have their financial statements audited by an independent CPA. Submission to the BIR occurs alongside the Annual Income Tax Return (Form 1702/1701) by April 15 following the fiscal year, followed by filing with the SEC via SEC eFAST.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>3. How does GPR assist businesses facing a BIR Letter of Authority (LOA) audit?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            Our accredited CPAs review the BIR LOA, audit your accounting records, reconcile sales vs. purchases against BIR third-party data, draft formal protest letters against Preliminary Assessment Notices (PAN), and represent your company in technical conferences with BIR Revenue Officers.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>4. What software does GPR use for cloud bookkeeping retainer clients?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            We specialize in Xero and QuickBooks Online. We handle system setup, chart of accounts customization, receipt scanning integration, and automated bank feeds so you can track your business cash flow anywhere from your phone or laptop.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>5. How do I join the GPR Client Viber Community?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            Simply click any "Join GPR Viber Community" link on our site or contact our office. Our team will send you an exclusive invite link to receive real-time BIR advisory alerts, tax deadline reminders, and quarterly newsletters.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="horizontal-logo.png" alt="GPR Accounting & Consultancy Services" class="footer-logo" />
+          <p>
+            GPR Accounting & Consultancy Services is a premier Philippine accounting and business advisory firm providing comprehensive financial audit, BIR tax compliance, SEC corporate filing, and cloud bookkeeping solutions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#assurance">Assurance & Audit</a>
+            <a href="services.html#tax">Tax Compliance & Incentives</a>
+            <a href="services.html#corporate">Corporate Advisory & SEC</a>
+            <a href="services.html#bookkeeping">Cloud Accounting & Payroll</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Accreditations</h4>
+          <p style="font-size: 0.85rem; color: var(--slate-400); margin-bottom: 1rem;">
+            BIR Accredited Tax Practitioners | SEC Group B Accredited Auditors | PRC BOA Reg. No. 8921
+          </p>
+          <a href="https://invite.viber.com" target="_blank" class="viber-badge" style="display: inline-flex;">
+            💬 Join GPR Viber Community
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 GPR Accounting & Consultancy Services. All Rights Reserved.</div>
+        <div>Philippine Tax & Financial Advisory Services</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book a Consultation Modal -->
+  <div class="modal" id="consultationModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge badge-red" style="margin-bottom: 0.5rem;">Book A Consultation</span>
+        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--slate-900);">Schedule Your CPA Consultation</h3>
+        <p style="font-size: 0.9rem; color: var(--slate-600);">Fill out the form below and our CPA team will get back to you within 24 hours.</p>
+      </div>
+
+      <form class="consultation-form">
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-input" required placeholder="e.g. Juan Dela Cruz" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="juan@company.ph" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone / Viber *</label>
+            <input type="tel" class="form-input" required placeholder="09171234567" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label class="form-label">Service Required</label>
+          <select class="form-select">
+            <option>BIR Tax Compliance & Strategy</option>
+            <option>Assurance & Financial Audit</option>
+            <option>SEC Corporate Registration / GIS</option>
+            <option>Bookkeeping & Payroll Retainer</option>
+            <option>General Business Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.5rem;">
+          <label class="form-label">Brief Note / Question</label>
+          <textarea class="form-textarea" rows="3" placeholder="Tell us about your business or specific tax inquiry..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
